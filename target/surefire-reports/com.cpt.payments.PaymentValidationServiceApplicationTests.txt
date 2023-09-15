@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.cpt.payments.PaymentValidationServiceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.305 s <<< FAILURE! - in com.cpt.payments.PaymentValidationServiceApplicationTests
+contextLoads  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.metrics.task.TaskExecutorMetricsAutoConfiguration': Injection of autowired dependencies failed; nested exception is java.lang.reflect.InaccessibleObjectException: Unable to make protected java.util.concurrent.RunnableScheduledFuture java.util.concurrent.ScheduledThreadPoolExecutor.decorateTask(java.lang.Runnable,java.util.concurrent.RunnableScheduledFuture) accessible: module java.base does not "opens java.util.concurrent" to unnamed module @2e4b8173
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected java.util.concurrent.RunnableScheduledFuture java.util.concurrent.ScheduledThreadPoolExecutor.decorateTask(java.lang.Runnable,java.util.concurrent.RunnableScheduledFuture) accessible: module java.base does not "opens java.util.concurrent" to unnamed module @2e4b8173
+
