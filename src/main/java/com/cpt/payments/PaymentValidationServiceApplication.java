@@ -8,8 +8,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @Configuration
 @SpringBootApplication(scanBasePackages = { "com.cpt.payments" })
-@EnableAsync
-@EnableScheduling
 public class PaymentValidationServiceApplication {
 
 	public static void main(String[] args) {

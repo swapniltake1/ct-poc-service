@@ -1,1 +1,3 @@
+com\cpt\payments\model\Payment.class
 com\cpt\payments\PaymentValidationServiceApplication.class
+com\cpt\payments\controllers\HomeController.class
